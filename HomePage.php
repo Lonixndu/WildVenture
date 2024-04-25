@@ -35,9 +35,14 @@
         </div>
     </div>
 
+    <br><br><br><br>
 
     <!--2nd div: Picture slideshow with pictures of destinations-->
-    <div></div>
+    <div>
+        <?php
+            include('./templates/slideshow/slideshow.php');
+        ?>
+    </div>
 
     
     <!--3rd div: Redirect link to resservation tab-->
