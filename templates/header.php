@@ -50,7 +50,7 @@
 </head>
 
 <body>
-    <div>
+    <div class="topic">
         <img src="./logo.jpeg" id="logo">
         <a href="#"><img src="./pfp.png" id="pfp"></a>
         <h1 id="heading">WildVenture</h1>
@@ -66,3 +66,5 @@
         <a href="#">Community</a>
         <input type="text" placeholder="Search..">
     </div>
+</body>
+</html>
