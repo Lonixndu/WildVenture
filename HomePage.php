@@ -30,7 +30,7 @@
         <div class="greetingExt">
             <p>Welcome to WildVenture, your premier destination for unforgettable wildlife safaris. 
                 Explore the world's most magnificent creatures in their natural habitats with our curated experiences, 
-                from the African savannah to the Amazon rainforest and beyond.
+                from the Sigiriya, Sri Lanka to the Amazon rainforest and beyond.
             </p>
         </div>
     </div>
