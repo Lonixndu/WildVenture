@@ -5,7 +5,7 @@
         #heading{text-align: center; font-size: 50px; font-weight: bold; padding-top: 25px;}
         #subHeading{text-align: center; font-size: 20px;}
         #pfp{height: 100px; width: auto; float: right; padding-top: 25px; padding-right: 25px;}
-        #logo, #heading, #subHeading{margin: 0px}
+        #logo, #heading, #subHeading, #pfp{margin: 0px}
         #subHeading{margin-bottom: 45px;}
 
         body{margin: 0; font-family: Helvetica, sans-serif;}
@@ -59,7 +59,7 @@
     </div>
 
     <div class="topnav">
-        <a href="#">Home</a>
+        <a href="./HomePage.php">Home</a>
         <a href="#">Reservations</a>
         <a href="#">Destinations</a>
         <a href="#">About Us</a>
