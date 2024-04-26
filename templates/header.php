@@ -8,7 +8,6 @@
         #logo, #heading, #subHeading, #pfp{margin: 0px}
         #subHeading{margin-bottom: 45px;}
 
-        body{margin: 0; font-family: Helvetica, sans-serif;}
 
         .topnav {overflow: hidden; background-color: #e9e9e9;}
         .topnav a {

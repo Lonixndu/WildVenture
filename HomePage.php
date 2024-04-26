@@ -39,12 +39,16 @@
 
     <!--2nd div: Picture slideshow with pictures of destinations-->
     <div>
-        <?php
-            include('./templates/slideshow/slideshow.php');
-        ?>
+        <?php include('./templates/slideshow/slideshow.php')?>
     </div>
 
     
     <!--3rd div: Redirect link to resservation tab-->
     <div></div>
+
+
+    <!--4th div: Adding footer from footer.php-->
+    <div>
+        <?php include('./templates/footer.php')?>
+    </div>
 </body>
