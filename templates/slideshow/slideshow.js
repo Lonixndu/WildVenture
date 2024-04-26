@@ -8,7 +8,7 @@ startSlideShow();
 function startSlideShow(){
     slideInterval = setInterval(
         function() {nextSlide(1); //move to next slide
-    }, 3000 //in miliseconds
+    }, 4000 //in miliseconds
     );
 }
 
