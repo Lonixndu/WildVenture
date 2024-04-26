@@ -3,7 +3,8 @@
     <link rel="stylesheet" href="./templates/slideshow/slideshow.css">
 </head>
 
-<body>
+<body class="bg">
+<div>
     <div class="slide-contain">
         <div class="slide fade" id="slide">
             <div class="slide-num">1 / 4</div>
@@ -41,5 +42,6 @@
     </div>
 
     <script src="./templates/slideshow/slideshow.js"></script>
+</div>
 </body>
 </html>

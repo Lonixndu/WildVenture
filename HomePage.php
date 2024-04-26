@@ -9,7 +9,7 @@
 
 <body>
     <!--Adding header from header.php-->
-    <div>
+    <div class="header">
         <?php include("./templates/header.php")?>
     </div>
 
@@ -38,17 +38,18 @@
     <br><br><br><br>
 
     <!--2nd div: Picture slideshow with pictures of destinations-->
-    <div>
-        <?php include('./templates/slideshow/slideshow.php')?>
+    <div class="slideshow">
+        <div><?php include('./templates/slideshow/slideshow.php')?></div>
     </div>
 
+    <br><br><br><br>
     
     <!--3rd div: Redirect link to resservation tab-->
     <div></div>
 
 
     <!--4th div: Adding footer from footer.php-->
-    <div>
+    <div class="footer">
         <?php include('./templates/footer.php')?>
     </div>
 </body>

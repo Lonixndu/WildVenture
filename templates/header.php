@@ -2,14 +2,13 @@
 <head>
     <style>
         #logo{height: 150px; width: auto; float: left;}
-        #heading{text-align: center; font-size: 50px; font-weight: bold; padding-top: 25px;}
+        #heading{text-align: center; font-size: 50px; font-weight: bold; padding-top: 25px; font-family: Verdana, sans-serif;}
         #subHeading{text-align: center; font-size: 20px;}
         #pfp{height: 100px; width: auto; float: right; padding-top: 25px; padding-right: 25px;}
         #logo, #heading, #subHeading, #pfp{margin: 0px}
         #subHeading{margin-bottom: 45px;}
 
-
-        .topnav {overflow: hidden; background-color: #e9e9e9;}
+        .topnav {overflow: hidden; background-color: #e9e9e9; font-family: Verdana, sans-serif;}
         .topnav a {
             float: left;
             display: block;
