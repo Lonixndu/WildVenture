@@ -4,19 +4,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         .fa {
-            padding: 20px;
+            padding: 10px;
+            padding-bottom: 0;
             font-size: 20px;
             text-align: left;
             text-decoration: none;
             margin: 5px 2px;
         }
 
-        .fa:hover {
+        .fa:hover, .footer-link a:hover {
             opacity: 0.7;
         }
 
         .footer {
-            background-color: #f1f1f1;
+            background-color: #363b34;
         }
 
         .footer-container {
@@ -31,19 +32,24 @@
             list-style: none;
             padding: 0;
             margin: 0;
+            padding-top: 20px;
+            padding-bottom: 20px;
         }
 
         .footer-link li {
             display: block;
             margin-right: 10px;
             padding: 5px;
+            font-family: Verdana, sans-serif;
         }
 
-        a {
+        .footer a {
             text-decoration: none;
-            color: #333;
+            color: #d2cfc6;
             font-weight: bold;
         }
+
+        .admin:hover{text-decoration: underline; color: red;}
     </style>
 </head>
 
@@ -63,8 +69,8 @@
                 <a href="#"><i class="fa fa-facebook"></i></a>
                 <a href="#"><i class="fa fa-twitter"></i></a>
                 <a href="#"><i class="fa fa-instagram"></i></a>
-                <p class="copy" style="margin: 15px 0 5px 0;">&copy;WildVenture Inc.</p> 
-                <a class="admin12" href="#">Admin Login</a>  
+                <p class="copy" style="margin: 15px 0 5px 0; color: #d2cfc6;">&copy;WildVenture Inc.</p> 
+                <a class="admin" href="#">Admin Login</a>  
             </div>
         </div>
       </footer>

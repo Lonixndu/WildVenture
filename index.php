@@ -3,21 +3,49 @@
 <head>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
-        .heading-1{padding-left: 50px; font-size: 30px; font-family: "Garamond", serif;}
-        .info{padding-left: 50px; padding-right: 50px; font-size: 22px; font-family: 'Trebuchet MS', sans-serif;}
-        .redirect{font-size: 22px; font-family: "Garamond"; text-align: right; padding-right: 50px; padding-bottom: 50px;}
+        .heading-1{
+            padding-left: 50px; 
+            font-size: 30px; 
+            font-family: "Garamond", serif;
+        }
+
+        .info{
+            padding-left: 50px; 
+            padding-right: 50px; 
+            font-size: 22px; 
+            font-family: 'Trebuchet MS', sans-serif;
+        }
+        
+        .redirect{
+            font-size: 22px; 
+            font-family: "Garamond"; 
+            text-align: right; 
+            padding-right: 50px; 
+            padding-bottom: 50px;
+        }
+
+        .redirect a{
+            color: #333; 
+            text-decoration: none; 
+            font-weight: bold;
+        }
     </style>
 </head>
 
-<body style="background-color: #e6e7e3;">
+
+
+<body style="background-color: #e6e7e3;"> <!--Background color added here because of white spaces between divs, couldn't find issue-->
+    
     <!--Adding header from header.php-->
     <div class="header">
         <?php include("./templates/header.php")?>
     </div>
 
+
     <div class="body-content">
-        <!--1st div: Greeting with the website introduction-->
+        <!--1st div: Greeting with the website introduction (name should be imported from the database, if the user logged in, if not it will display "Visitor")-->
         <div>
+
             <div class="heading-1">
                 <?php
                     $name = filter_input(INPUT_GET, "firstname", FILTER_SANITIZE_STRING);
@@ -29,28 +57,36 @@
                     }
                 ?>
             </div>
+
             <div class="info">
                 <p>Welcome to WildVenture, your premier destination for unforgettable wildlife safaris. 
                     Explore the world's most magnificent creatures in their natural habitats with our curated experiences, 
                     from the Sigiriya, Sri Lanka to the Amazon rainforest and beyond.
                 </p>
             </div>
+
         </div>
+
 
         <br><br><br><br>
 
-        <!--2nd div: Picture slideshow with pictures of destinations-->
+
+        <!--2nd div: Picture slideshow with pictures of destinations, transition every 4 seconds, or click next/previous buttons-->
         <div class="slideshow">
             <div><?php include('./templates/slideshow/slideshow.php')?></div>
         </div>
 
+
         <br><br><br><br>
-        
-        <!--3rd div: Redirect link to resservation tab-->
+
+
+        <!--3rd div: Redirect link to reservation tab-->
         <div>
+
             <div class="heading-1">
                 <h1>Ready for your Adventure?</h1>
             </div>
+
             <div class="info">
                 <!--<p>At WildVenture, we pride ourselves on delivering unparalleled 
                     excellence in trip planning and reservation services. 
@@ -67,13 +103,14 @@
                     embark on your next adventure with confidence and peace of mind.
                 </p>
             </div>
+
             <div class="redirect">
                     <a href="#">Go to Discover Page
                         <i class="fa fa-external-link" style="padding: 0; font-size: 18px;"></i>
                     </a>
             </div>
-        </div>
 
+        </div>
 
     </div>
 
@@ -82,4 +119,6 @@
     <div class="footer">
         <?php include('./templates/footer.php')?>
     </div>
+
 </body>
+</html>
