@@ -2,13 +2,13 @@
 <head>
     <style>
         #logo{height: 150px; width: auto; float: left;}
-        #heading{text-align: center; font-size: 50px; font-weight: bold; padding-top: 25px; font-family: Verdana, sans-serif;}
-        #subHeading{text-align: center; font-size: 20px;}
+        #heading{text-align: center; font-size: 50px; font-weight: bold; padding-top: 25px; font-family: Verdana, sans-serif; color: #d2cfc6;}
+        #subHeading{text-align: center; font-size: 20px; font-family: "Lucida Handwriting", monospace; color: #9ca499;}
         #pfp{height: 100px; width: auto; float: right; padding-top: 25px; padding-right: 25px;}
         #logo, #heading, #subHeading, #pfp{margin: 0px}
-        #subHeading{margin-bottom: 45px;}
+        #subHeading{padding-bottom: 45px;}
 
-        .topnav {overflow: hidden; background-color: #e9e9e9; font-family: Verdana, sans-serif;}
+        .topnav {overflow: hidden; background-color: #d6d2c9; font-family: Verdana, sans-serif;}
         .topnav a {
             float: left;
             display: block;
@@ -17,9 +17,10 @@
             padding: 14px 70px;
             text-decoration: none;
             font-size: 17px;
+            transition: 0.3s;
         }
 
-        .topnav a:hover {background-color: #ddd; color: black;}
+        .topnav a:hover {background-color: #6c746a; color: #d2cfc6;}
         
         .topnav input[type=text] {
             float: right;
@@ -44,6 +45,9 @@
                 border: 1px solid #ccc;  
             }
         }
+
+        .topic{background-color: #363b34;}
+        .topnav{background-color: #d6d2c9;}
     </style>
 </head>
 
@@ -57,7 +61,7 @@
     </div>
 
     <div class="topnav">
-        <a href="./HomePage.php">Home</a>
+        <a href="./index.php">Home</a>
         <a href="#">Reservations</a>
         <a href="#">Destinations</a>
         <a href="#">About Us</a>
