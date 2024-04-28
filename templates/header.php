@@ -62,10 +62,10 @@
 
     <div class="topnav">
         <a href="./index.php">Home</a>
-        <a href="#">Reservations</a>
-        <a href="#">Destinations</a>
-        <a href="#">About Us</a>
-        <a href="#">Community</a>
+        <a href="./reservations.php">Reservations</a>
+        <a href="./destinations.php">Destinations</a>
+        <a href="./about-us.php">About Us</a>
+        <a href="./community.php">Community</a>
         <input type="text" placeholder="Search..">
     </div>
 </body>

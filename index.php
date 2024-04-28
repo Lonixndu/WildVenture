@@ -2,6 +2,8 @@
 
 <head>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" href="./templates/favicon.ico">
+<title>WildVenture Home</title>
     <style>
         .heading-1{
             padding-left: 50px; 
@@ -34,7 +36,7 @@
 
 
 
-<body style="background-color: #e6e7e3;"> <!--Background color added here because of white spaces between divs, couldn't find issue-->
+<body style="background-color: #e6e7e3; margin: 0;"> <!--Background color added here because of white spaces between divs, couldn't find issue-->
     
     <!--Adding header from header.php-->
     <div class="header">
@@ -73,7 +75,7 @@
 
         <!--2nd div: Picture slideshow with pictures of destinations, transition every 4 seconds, or click next/previous buttons-->
         <div class="slideshow">
-            <div><?php include('./templates/slideshow/slideshow.php')?></div>
+            <div><?php include('./templates/slideshow-home/slideshow-home.php')?></div>
         </div>
 
 
@@ -105,7 +107,7 @@
             </div>
 
             <div class="redirect">
-                    <a href="#">Go to Discover Page
+                    <a href="#">Go to Reservations Page
                         <i class="fa fa-external-link" style="padding: 0; font-size: 18px;"></i>
                     </a>
             </div>

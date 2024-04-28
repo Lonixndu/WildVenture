@@ -60,8 +60,8 @@
                 <ul class="footer-link">
                     <li><a href="#">Help</a></li>
                     <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">What's New?</a></li>
-                    <li><a href="#">FAQs</a></li>
+                    <li><a href="./test.php">What's New?</a></li>
+                    <li><a href="./faqs.php">FAQs</a></li>
                 </ul>
             </nav>
         
