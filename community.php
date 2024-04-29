@@ -7,17 +7,11 @@
     <link rel="icon" href="./templates/favicon.ico">
     <title>WildVenture Community</title>
 
-    <style>
-        .heading-1{
-            padding-left: 50px; 
-            font-size: 30px; 
-            font-family: "Garamond", serif;
-        }
-    </style>
+    <link rel="stylesheet" href="./templates/website-css.css">
 </head>
 
 
-<body style="background-color: #e6e7e3; margin: 0;">
+<body>
 
     <!--Adding header from header.php-->
     <div class="header">

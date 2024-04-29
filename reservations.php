@@ -7,10 +7,12 @@
     
     <link rel="icon" href="./templates/favicon.ico">
     <title>WildVenture Reservations</title>
+
+    <link rel="stylesheet" href="./templates/website-css.css">
 </head>
 
 
-<body style="background-color: #e6e7e3; margin: 0;">
+<body>
 
     <!--Adding header from header.php-->
     <div class="header">

@@ -1,42 +1,16 @@
 <!DOCTYPE html>
 
 <head>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="icon" href="./templates/favicon.ico">
-<title>WildVenture Home</title>
-    <style>
-        .heading-1{
-            padding-left: 50px; 
-            font-size: 30px; 
-            font-family: "Garamond", serif;
-        }
+    <link rel="icon" href="./templates/favicon.ico">
+    <title>WildVenture Home</title>
 
-        .info{
-            padding-left: 50px; 
-            padding-right: 50px; 
-            font-size: 22px; 
-            font-family: 'Trebuchet MS', sans-serif;
-        }
-        
-        .redirect{
-            font-size: 22px; 
-            font-family: "Garamond"; 
-            text-align: right; 
-            padding-right: 50px; 
-            padding-bottom: 50px;
-        }
-
-        .redirect a{
-            color: #333; 
-            text-decoration: none; 
-            font-weight: bold;
-        }
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./templates/website-css.css">
 </head>
 
 
 
-<body style="background-color: #e6e7e3; margin: 0;"> <!--Background color added here because of white spaces between divs, couldn't find issue-->
+<body>
     
     <!--Adding header from header.php-->
     <div class="header">
