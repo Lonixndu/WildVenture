@@ -36,7 +36,7 @@
   margin-bottom: 8px;
 }
 
-#email, #password{
+#email, #password, #fname, #lname, #password-2{
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 4px;

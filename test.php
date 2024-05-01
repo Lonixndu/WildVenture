@@ -42,7 +42,7 @@
         $email = $_POST['email'];
 
         $sql = "INSERT INTO registered_user(F_Name, L_Name, Country, Email, Password)
-                VALUES('$f_name', '$l_name', 'Sri Lanka', '$email', '$pass')";
+                VALUES('$f_name', '$l_name', 'Sri Lanka', '$email', '$hash')";
 
         mysqli_query($conn, $sql);
     }

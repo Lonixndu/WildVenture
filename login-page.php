@@ -54,7 +54,7 @@
                         <i class="fab fa-google"></i> Sign in with Google
                         </a>
 
-                        <a href="#" class="create-account">Create an account</a>
+                        <a href="./create-account.php" class="create-account">Create an account</a>
                     </div>
                 </div>
             </div>

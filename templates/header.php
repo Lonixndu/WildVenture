@@ -54,7 +54,7 @@
 <body>
     <div class="topic">
         <img src="./templates/logo.jpeg" id="logo">
-        <a href="#" id="pfp-link"><img src="./templates/pfp.png" id="pfp" class="pfp"></a>
+        <a href="#" id="pfp-link"><img src="./templates/pfp.png" id="pfp"></a>
         <h1 id="heading">WildVenture</h1>
         <h4 id="subHeading">Wildlife adventure organizer</h4>
         
@@ -67,7 +67,7 @@
             }*/
 
             if (isset($_SESSION['fname'])) {
-                echo '<script>document.getElementById("pfp-link").href="account.php";</script>';
+                echo '<script>document.getElementById("pfp-link").href="account-page.php";</script>';
             } else {
                 echo '<script>document.getElementById("pfp-link").href="login-page.php";</script>';
             }
