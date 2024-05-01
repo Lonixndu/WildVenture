@@ -20,11 +20,11 @@
             $_SESSION['lname'] = $row['l_name'];
             $_SESSION['email'] = $row['email'];
 
-            header("location: index.php");
+            header("location: ../index.php");
             exit();
         }
         elseif($verify == false){
-            header("location: login-page.php");
+            header("location: ../login-page.php");
         }
     }
 

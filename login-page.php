@@ -31,7 +31,7 @@
         <div class="body-content">
             <div class="container">
                 <div class="form-container">
-                    <form action="./database-read.php" method="POST">
+                    <form action="./database/database-read.php" method="POST">
                         <label for="email">Email:</label>
                         <input type="email" id="email" name="email" required>
 
@@ -68,6 +68,4 @@
     <?php include('./templates/footer.php');?>
     </div>
 </body>
-
-
 </html>

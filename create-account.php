@@ -31,7 +31,7 @@
         <div class="body-content">
             <div class="container">
                 <div class="form-container">
-                    <form onsubmit="return checkPass();" action="./database-create.php" method="POST">
+                    <form onsubmit="return checkPass();" action="create-account.php" method="POST">
                         <label for="fname">First Name:</label>
                         <input type="text" id="fname" name="fname" required>
 

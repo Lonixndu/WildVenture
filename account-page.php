@@ -29,9 +29,17 @@
         </div>
 
         <div>
-        <form action=account-page.php method="get">
-        <input type="submit" value="logout" name="logout">
-    </form>
+            <form action=account-page.php method="get">
+                <input type="submit" value="logout" name="logout">
+
+                <?php
+                    if(isset($_GET['logout'])){
+                        session_unset();
+                        session_destroy();
+                        header("Location: ./login-page.php");
+                    }
+                ?>
+            </form>
         </div>
     </div>
 
@@ -45,10 +53,3 @@
 
 
 </html>
-
-<?php
-    if(isset($_GET['logout'])){
-        session_unset();
-        session_destroy();
-    }
-?>

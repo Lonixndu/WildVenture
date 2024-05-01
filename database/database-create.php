@@ -1,5 +1,6 @@
 <?php
-    include('./database-connect.php');
+    include('./database/database-connect.php');
+
     if(isset($_POST['create'])){
         $fname = $_POST['fname'];
         $lname = $_POST['lname'];
@@ -11,10 +12,16 @@
         $sql = "INSERT INTO registered_user(F_Name, L_Name, Country, Email, Password)
                 VALUES('$fname', '$lname', 'Sri Lanka', '$email', '$pass_encry')";
 
-        mysqli_query($conn, $sql);
+        try{
+            mysqli_query($conn, $sql);
+            header("Location: ../login-page.php");
+        }
+        catch(mysqli_sql_exception){
+            echo "That email is already taken!";
+        }
     }
 
-    header("Location: ./login-page.php");
+    
 
     mysqli_close($conn);
 ?>
