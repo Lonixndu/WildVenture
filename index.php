@@ -26,8 +26,14 @@
 
             <div class="heading-1">
                 <?php
-                    //$name = filter_input(INPUT_GET, "firstname", FILTER_SANITIZE_STRING);
-                    $name = $_SESSION['fname'];
+                    if(isset($_SESSION['fname'])) //checking if session exists [added later to avoid an error/warning]
+                    {
+                        $name = $_SESSION['fname']; //if exists, session name will be assigned to the name variable
+                    }
+                    else{
+                        $name = NULL; // if not exists, name will be null
+                    }
+                    
                     if(!empty($name)){
                         echo "<h1>Hello {$name}!</h1>";
                     }

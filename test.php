@@ -1,4 +1,5 @@
-<?php include('./database/database-connect.php');?>
+<?php include('./database-connect.php');
+    session_start(); ?>
 
 <!DOCTYPE html>
 <head>
@@ -18,6 +19,9 @@
         Password:<br>
         <input type="password" name="pass"><br>
         <input type="submit" value="save" name="save">
+    </form>
+    <form action=test.php method="get">
+        <input type="submit" value="logout" name="logout">
     </form>
 
 
@@ -45,4 +49,11 @@
     
 
     mysqli_close($conn);
+?>
+
+<?php
+    if(isset($_GET['logout'])){
+        session_unset();
+        session_destroy();
+    }
 ?>

@@ -54,10 +54,24 @@
 <body>
     <div class="topic">
         <img src="./templates/logo.jpeg" id="logo">
-        <a href="./login-page.php"><img src="./templates/pfp.png" id="pfp"></a>
+        <a href="#" id="pfp-link"><img src="./templates/pfp.png" id="pfp" class="pfp"></a>
         <h1 id="heading">WildVenture</h1>
         <h4 id="subHeading">Wildlife adventure organizer</h4>
         
+        <?php
+            /* Check if user session exists 
+            if (isset($_SESSION['fname'])) {
+            echo '<script>document.querySelector("img.pfp a:nth-child(2)").href="account.php";</script>';
+            } else {
+            echo '<script>document.querySelector("img.pfp a:nth-child(2)").href="login-page.php";</script>';
+            }*/
+
+            if (isset($_SESSION['fname'])) {
+                echo '<script>document.getElementById("pfp-link").href="account.php";</script>';
+            } else {
+                echo '<script>document.getElementById("pfp-link").href="login-page.php";</script>';
+            }
+        ?>
     </div>
 
     <div class="topnav">
@@ -70,3 +84,4 @@
     </div>
 </body>
 </html>
+
