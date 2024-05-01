@@ -1,3 +1,5 @@
+<?php session_start(); ?>
+
 <!DOCTYPE html>
 
 <head>
@@ -5,7 +7,7 @@
     <title>WildVenture Home</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./templates/website-css.css">
+    <link rel="stylesheet" href="./templates/CSS/website-css.css">
 </head>
 
 
@@ -24,7 +26,8 @@
 
             <div class="heading-1">
                 <?php
-                    $name = filter_input(INPUT_GET, "firstname", FILTER_SANITIZE_STRING);
+                    //$name = filter_input(INPUT_GET, "firstname", FILTER_SANITIZE_STRING);
+                    $name = $_SESSION['fname'];
                     if(!empty($name)){
                         echo "<h1>Hello {$name}!</h1>";
                     }

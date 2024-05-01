@@ -8,7 +8,7 @@
     <link rel="icon" href="./templates/favicon.ico">
     <title>WildVenture Reservations</title>
 
-    <link rel="stylesheet" href="./templates/website-css.css">
+    <link rel="stylesheet" href="./templates/CSS/website-css.css">
 </head>
 
 
@@ -25,6 +25,10 @@
     <div>
         <div class="heading-1">
             <h1>Reserve Your Trip</h1>
+        </div>
+
+        <div class="reserve-from">
+            
         </div>
     </div>
 

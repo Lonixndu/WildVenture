@@ -8,7 +8,7 @@
     <link rel="icon" href="./templates/favicon.ico">
     <title>WildVenture Reservations</title>
     
-    <link rel="stylesheet" href="./templates/website-css.css">
+    <link rel="stylesheet" href="./templates/CSS/website-css.css">
 </head>
 
 

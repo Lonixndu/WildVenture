@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css');
+
+.body-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  padding: 24px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+  width: 100%;
+  max-width: 400px;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.form-container label {
+  margin-bottom: 8px;
+}
+
+#email, #password{
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+  transition: border-color 0.2s ease-in-out;
+}
+
+#email:focus, #password:focus{
+  border-color: #4caf50;
+  outline: none;
+}
+
+
+
+.additional-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  width: 100%;
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+.social-sign-in {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+/* Wrap social sign-in links inside a container */
+.social-links-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.facebook-sign-in, .google-sign-in, .create-account{
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  text-align: center;
+  margin-top: 20px; /* Add equal margin to all links */
+}
+
+.facebook-sign-in {
+  background-color: #1877f2;
+}
+
+.google-sign-in {
+  background-color: #db4437;
+}
+
+.create-account {
+  background-color: #4caf50;
+}
+
+.facebook-sign-in:hover, .google-sign-in:hover, .create-account:hover, .login:hover{
+  opacity: 0.8;
+}
+
+.login{
+  text-decoration: none;
+  font-size: 18px;
+  background-color: #363b34;
+  color: #fff;
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  text-align: center;
+  margin-top: 20px; /* Add equal margin to all links */
+  font-family: "Garamond", serif;
+  font-weight: bold;
+}

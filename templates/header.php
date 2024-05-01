@@ -54,7 +54,7 @@
 <body>
     <div class="topic">
         <img src="./templates/logo.jpeg" id="logo">
-        <a href="#"><img src="./templates/pfp.png" id="pfp"></a>
+        <a href="./login-page.php"><img src="./templates/pfp.png" id="pfp"></a>
         <h1 id="heading">WildVenture</h1>
         <h4 id="subHeading">Wildlife adventure organizer</h4>
         
