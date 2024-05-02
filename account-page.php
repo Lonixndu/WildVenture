@@ -87,7 +87,10 @@
                     Password: *********
                 </div>
                 </div>
+                    <a href="./database_reg-usr/database-update.php" style="text-decoration: none;">
                     <button class="reset-pass"><i class="fas fa-key"></i>Reset Password</button>
+                    </a>
+
                     <button class="save-button">Save</button>
                 </div>
             </div>

@@ -23,6 +23,9 @@
             header("location: ../index.php");
             exit();
         }
+        else{
+            echo "Login Failed! Please Check username/password, or Create an account.";
+        }
         
     }
     else{

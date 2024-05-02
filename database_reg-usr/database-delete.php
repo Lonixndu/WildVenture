@@ -17,18 +17,6 @@
         mysqli_stmt_bind_param($stmt, "s", $userEmail);
 
 
-        /*$sql = "SELECT * FROM registered_user WHERE email='$email'";
-        $result = mysqli_query($conn, $sql);
-
-        if(mysqli_num_rows($result) === 1){
-            $row = mysqli_fetch_assoc($result);
-
-            if($_SESSION['email'] === $row['email'])
-            {
-                
-            }
-        }*/
-
         if (mysqli_stmt_execute($stmt)) {
             if (mysqli_stmt_affected_rows($stmt) > 0) {
               echo "Record deleted successfully!";

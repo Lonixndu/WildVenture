@@ -43,7 +43,7 @@
                             <option value="Sri Lanka">Sri Lanka</option>
                             <option value="India">India</option>
                             <option value="Russia">Russia</option>
-                            <option value="Germany">German</option>
+                            <option value="Dubai">Dubai</option>
                         </select>
 
                         <label for="email">Your Email:</label>
