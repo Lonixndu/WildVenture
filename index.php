@@ -90,7 +90,7 @@
             </div>
 
             <div class="redirect">
-                    <a href="#">Go to Reservations Page
+                    <a href="./reservations.php">Go to Reservations Page
                         <i class="fa fa-external-link" style="padding: 0; font-size: 18px;"></i>
                     </a>
             </div>

@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Profile section */
+.profile-section, .info-section {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.profile-section{
+    width: 300px;
+}
+.info-section{
+    width: 600px;
+}
+
+.profile-section h2, .info-section h2 {
+    margin-bottom: 20px;
+}
+
+.profile-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-info{
+    align-items: left;
+}
+
+.profile-photo, .edit-profile, .settings, .info-item {
+    margin-bottom: 20px;
+}
+
+.profile-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.edit-profile button, .settings input, .info-item button, .save-button , .logout input, .reset-pass{
+    padding: 10px 20px;
+    border: none;
+    background-color: #363b34;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.edit-profile button:hover, .settings button:hover, .info-item button:hover, .save-button:hover , .logout input:hover, .reset-pass:hover{
+    opacity: 0.8;
+}
+
+/* Add border to sections */
+.profile-section, .info-section {
+    border: 1px solid #ccc;
+}
+
+/* Add space between tabs */
+.profile-section, .info-section {
+    margin-top: 20px;
+}
+

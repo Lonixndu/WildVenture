@@ -31,12 +31,20 @@
         <div class="body-content">
             <div class="container">
                 <div class="form-container">
-                    <form onsubmit="return checkPass();" action="create-account.php" method="POST">
+                    <form onsubmit="return checkPass();" action="./database_reg-usr/database-create.php" method="POST">
                         <label for="fname">First Name:</label>
                         <input type="text" id="fname" name="fname" required>
 
                         <label for="lname">Last Name:</label>
                         <input type="text" id="lname" name="lname" required><br>
+
+                        <label for="country">Select Your Country:</label>
+                        <select id="country" name="country">
+                            <option value="Sri Lanka">Sri Lanka</option>
+                            <option value="India">India</option>
+                            <option value="Russia">Russia</option>
+                            <option value="Germany">German</option>
+                        </select>
 
                         <label for="email">Your Email:</label>
                         <input type="email" id="email" name="email" required><br>

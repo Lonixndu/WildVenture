@@ -23,9 +23,10 @@
             header("location: ../index.php");
             exit();
         }
-        elseif($verify == false){
-            header("location: ../login-page.php");
-        }
+        
+    }
+    else{
+        echo "Login Failed! Please Check username/password, or Create an account.";
     }
 
 
