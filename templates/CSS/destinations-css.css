@@ -1,0 +1,43 @@
+.destination {
+    border: 5px solid #9ca499;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 auto 20px;
+    max-width: 600px;
+    background-color: #fff;
+}
+
+.destination img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.destination h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.destination p {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+.btn-lrn-mre {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-lrn-mre:hover {
+    background-color: #45a049;
+}

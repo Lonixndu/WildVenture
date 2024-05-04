@@ -70,7 +70,7 @@
                 <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
                 <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
                 <p class="copy" style="margin: 15px 0 5px 0; color: #d2cfc6;">&copy;WildVenture Inc.</p> 
-                <a class="admin" href="#">Admin Login</a>  
+                <a class="admin" href="./admin/admin-login.php">Admin Login</a>  
             </div>
         </div>
       </footer>

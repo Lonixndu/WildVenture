@@ -1,0 +1,7 @@
+#3b3f38 (header topic background)
+#9ca499 (sub heading color in topic @header)
+
+#d2cfc6 (menubar color)
+#6c746a (menubar hover)
+
+#e6e7e3 (body bg color)

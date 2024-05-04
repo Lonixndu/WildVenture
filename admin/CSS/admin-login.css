@@ -1,0 +1,86 @@
+/* Additional styling */
+body{
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.login-photo {
+    padding: 20px;
+    text-align: center;
+}
+
+.login-photo img {
+    max-width: 50%; /* Make the photo take full width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    
+    border: 10px solid #ccc;
+}
+
+.login-form input[type="submit"] {
+    background-color: #2980b9; /* Background color */
+    color: #fff; /* Text color */
+    border: none; /* Remove border */
+    padding: 15px 30px; /* Padding */
+    border-radius: 25px; /* Border radius */
+    cursor: pointer; /* Add cursor pointer */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s; /* Add transition for smoother hover effect */
+    margin-right:700px;
+}
+
+.login-form input[type="submit"]:hover {
+    background-color: #1a5276; /* Darker background color on hover */
+}
+
+.input-container {
+    position: relative; /* Added position relative for the input container */
+}
+
+.input-container input[type="email"],
+.input-container input[type="password"] {
+    width: calc(100% - 40px); /* Adjusted to account for icon width and padding */
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-sizing: border-box;
+    margin-bottom: 20px; /* Added space between input fields */
+}
+
+.input-container input[type="email"] + i,
+.input-container input[type="password"] + i {
+    position: absolute;
+    right: 20px; /* Adjusted position */
+    top: 50%; /* Centered vertically */
+    transform: translateY(-50%);
+    color: #aaa; /* Light gray icon color */
+    cursor: pointer;
+    font-size: 20px; /* Increased icon size */
+}
+
+.bottom-links {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.bottom-links a {
+    color: #2980b9; /* Blue link color */
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s; /* Add transition for smoother hover effect */
+}
+
+.bottom-links a:hover {
+    color: #1a5276; /* Darker blue on hover */
+}
+
+
+
+
