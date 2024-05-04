@@ -59,16 +59,20 @@
     </div>
 
     <div class="topnav">
-        <a href="./destinations.php">Destinations</a>
-        <a href="./admin-account.php">Administration</a>
-        <a href="../login-page.php">User Login</a>
+        <a id="dest" href="./admin-destinations.php">Destinations</a>
+        <a id="admin" href="./admin-account.php">Administration</a>
+        <a id="usr-log" href="../login-page.php">User Login</a>
         <input type="text" placeholder="Search..">
         
         <?php
-            if (isset($_SESSION['fname'])) {
-                    echo '<script>document.getElementById("reserv").href="reservations.php";</script>';
+            if (isset($_SESSION['a_email'])) {
+                    echo '<script>document.getElementById("dest").href="admin-destinations.php";</script>';
+                    echo '<script>document.getElementById("admin").href="admin-account.php";</script>';
+                    echo '<script>document.getElementById("usr-log").style.display = "none";</script>';
+
                 } else {
-                    echo '<script>document.getElementById("reserv").href="login-page.php";</script>';
+                    echo '<script>document.getElementById("admin").href="admin-login.php";</script>';
+                    echo '<script>document.getElementById("dest").href="admin-login.php";</script>';
                 }
         ?>
     </div>
