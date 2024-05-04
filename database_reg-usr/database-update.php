@@ -28,9 +28,8 @@
         $sql = "UPDATE registered_user SET password='$hash' WHERE email='$email'";
         $result = mysqli_query($conn, $sql);
 
-        if(isset($result)){
-            
-        }
+        echo "Password Updated Successfully!<br>";
+        echo "<a href='../account-page.php'>Go Back<a>";
     }
     
 

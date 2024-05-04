@@ -19,6 +19,7 @@
             $_SESSION['fname'] = $row['f_name'];
             $_SESSION['lname'] = $row['l_name'];
             $_SESSION['email'] = $row['email'];
+            $_SESSION['count'] = $row['country'];
 
             header("location: ../index.php");
             exit();

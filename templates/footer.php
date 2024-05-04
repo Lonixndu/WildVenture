@@ -66,9 +66,9 @@
             </nav>
         
             <div class="social-icon">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="https://facebook.com/"><i class="fa fa-facebook"></i></a>
+                <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
                 <p class="copy" style="margin: 15px 0 5px 0; color: #d2cfc6;">&copy;WildVenture Inc.</p> 
                 <a class="admin" href="#">Admin Login</a>  
             </div>

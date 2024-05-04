@@ -76,11 +76,19 @@
 
     <div class="topnav">
         <a href="./index.php">Home</a>
-        <a href="./reservations.php">Reservations</a>
+        <a id="reserv" href="./reservations.php">Reservations</a>
         <a href="./destinations.php">Destinations</a>
         <a href="./about-us.php">About Us</a>
         <a href="./community.php">Community</a>
         <input type="text" placeholder="Search..">
+        
+        <?php
+            if (isset($_SESSION['fname'])) {
+                    echo '<script>document.getElementById("reserv").href="reservations.php";</script>';
+                } else {
+                    echo '<script>document.getElementById("reserv").href="login-page.php";</script>';
+                }
+        ?>
     </div>
 </body>
 </html>

@@ -90,9 +90,17 @@
             </div>
 
             <div class="redirect">
-                    <a href="./reservations.php">Go to Reservations Page
+                    <a id="reserve" href="./reservations.php">Go to Reservations Page
                         <i class="fa fa-external-link" style="padding: 0; font-size: 18px;"></i>
                     </a>
+
+                    <?php
+                        if (isset($_SESSION['fname'])) {
+                                echo '<script>document.getElementById("reserve").href="reservations.php";</script>';
+                            } else {
+                                echo '<script>document.getElementById("reserve").href="login-page.php";</script>';
+                            }
+                    ?>
             </div>
 
         </div>
