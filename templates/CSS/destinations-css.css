@@ -35,8 +35,8 @@
 
 .btn-lrn-mre {
     background-color: #fff;
-    border: 1px solid #9ca499;
     color: #4CAF50;
+    border: 1px solid #9ca499;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -48,15 +48,23 @@
     border-radius: 5px;
     cursor: pointer;
     transition: 0.2s;
+    
 }
 
-.btn-lrn-mre:hover {
+.btn-lrn-mre:hover{
     background-color: #45a049;
     color: #fff;
+    a{
+        color: #fff;
+    }
 }
 
 .destination:hover{
     background-color: #9ca499;
     color: #fff;
     max-width: 1230px;
+}
+
+.destination a{
+    text-decoration: none;
 }
