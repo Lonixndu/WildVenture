@@ -69,11 +69,11 @@
                         </select>
                     </div>
                 </div>
-            </fieldset>
 
-            <div class="submit">
-                <input type="submit" value="Reserve" name="reserve">
-            </div>
+                <div class="submit">
+                    <input type="submit" value="Reserve" name="reserve">
+                </div>
+            </fieldset>      
         </form>
         </div>
     </div>

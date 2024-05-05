@@ -29,15 +29,19 @@
         Your ID: <?php echo "$id"; ?> <br>
         Your Email:  <?php echo "$email"; ?> <br>
 
-        <form action="admin-account.php" method="GET">
+        <form action="admin-account.php" method="POST">
             <input type="submit" value="Admin Log Out" name="logout">
         </form>
+        <a href="./add-admin.php">Add Admin</a>
             <?php
-                if (isset($_GET['logout']))
+                if (isset($_POST['logout']))
                 {
                     session_unset();
                     session_destroy();
                     header("Location: ./admin-login.php");
+                }
+                if (isset($_POST['newAdmin'])){
+                    header("Location ./add-admin.php");
                 }
             ?>
 </body>
