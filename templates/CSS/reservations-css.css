@@ -1,0 +1,81 @@
+.reserve-form{
+    padding: 0 50px 50px 50px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.form-head{
+    text-align: center;
+}
+.form-head button{
+    width: 300px;
+    font-family: "Garamond", serif;
+    font-size: 40px;
+    display: inline-block;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.form-head button:hover{
+    background-color: #6c746a;
+    color: #fff;
+    width: 340px;
+    font-weight: bold;
+}
+
+.location{
+    padding: 30px 0 50px 0;
+    text-align: center;
+    font-size: 40px;
+}
+
+.location select{
+    padding: 10px 10px 10px 10px;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: #e6e7e3;
+}
+
+.selection{
+    font-size: 40px;
+    text-align: center;
+}
+.selection div{
+    display: inline-block;
+    padding: 10px 30px 50px 30px;
+}
+.selection input, select{
+    padding: 10px 10px 10px 10px;
+    font-size: 30px;
+    background-color: #e6e7e3;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.selection select{
+    width: 250px;
+}
+.selection input:hover, select:hover{
+    color: #fff;
+    background-color: #6c746a;
+}
+
+
+.submit{
+    text-align: center;
+}
+.submit input{
+    padding: 10px 10px 10px 10px;
+    background-color: #6c746a;
+    color: #fff;
+    font-size: 30px;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 40%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.submit input:hover{
+    background-color: #e6e7e3;
+    color: #6c746a;
+    width: 42%;
+}
+
