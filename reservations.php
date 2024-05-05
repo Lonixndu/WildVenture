@@ -23,7 +23,7 @@
 
 
 
-    <!--body content-->
+    <!--reservation form-->
     <div>
         <div class="heading-1">
             <h1>Reserve Your Trip</h1>
@@ -78,6 +78,16 @@
         </div>
     </div>
 
+
+    <!--pending reservations-->
+    <div>
+        <div class="heading-1">
+            <h1>Your Reservations</h1>
+        </div>
+        <div class="pending-loc">
+            <?php include('./database_reservation/database-read.php'); ?>
+        </div>
+    </div>
 
 
     <!--Adding footer from footer.php-->
