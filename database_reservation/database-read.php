@@ -26,7 +26,7 @@
         echo "</table>";
     }
     else{
-        echo "No Reservations";
+        echo "No Upcoming Reservations";
     }
 
 
