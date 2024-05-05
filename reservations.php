@@ -54,11 +54,11 @@
                 <div class="selection">
                     <div>
                         <label for="start-date">From: </label><br>
-                        <input type="date" name="start-date" class="date"><br>
+                        <input type="date" name="start-date" class="date" required><br>
                     </div>
                     <div>
                         <label for="end-date">To: </label><br>
-                        <input type="date" name="end-date" class="date"><br>
+                        <input type="date" name="end-date" class="date" required><br>
                     </div>
                     <div>
                         <label for="people">Rooms: </label><br>
