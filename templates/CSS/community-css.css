@@ -1,0 +1,33 @@
+.rating{
+    width: 100px;
+    font-size: 22px;
+}
+
+.comment{
+    font-size: 22px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.info{
+    padding-bottom: 50px;
+}
+
+.submit input{
+    width: 300px;
+    height: 30px;
+    font-size: 22px;
+    border-radius: 10px;
+    border: 1px solid;
+    transition: 0.3s;
+}
+
+.submit input:hover{
+    background-color: #45a049;
+    color: #fff;
+}
+
+.feedback-old{
+    padding: 0 50px 30px 50px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+}

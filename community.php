@@ -9,6 +9,7 @@
     <title>WildVenture Community</title>
 
     <link rel="stylesheet" href="./templates/CSS/website-css.css">
+    <link rel="stylesheet" href="./templates/CSS/community-css.css">
 </head>
 
 
@@ -32,6 +33,40 @@
             <?php 
                 include('./templates/slideshow-community/slideshow-community.php');
             ?>
+        </div>
+
+        <!--feedback form-->
+        <div>
+            <div class="heading-1">
+                <h1>Leave Your Feedback</h1>
+            </div>
+
+            <div class="info">
+                <form action="./database_feedback/database-create.php" method="POST">
+                    <label for="rating">Rating (Out of 5)</label>
+                    <select class="rating" name="rating" required>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+
+                    <br><br>
+
+                    <label>Additional Comments</label><br>
+                    <textarea class="comment" name="comment" rows="5" cols="100"></textarea>
+
+                    <br>
+                    <div class="submit">
+                        <input type="submit" value="Submit" name="submit">
+                    </div>
+                </form>
+            </div>
+
+            <div class="feedback-old">
+                <?php include('./database_feedback/database-read.php'); ?>
+            </div>
         </div>
     </div>
 
