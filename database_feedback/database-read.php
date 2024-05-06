@@ -14,6 +14,7 @@
         echo "<tr>
                 <th>Feedback ID</th>
                 <th>Rating</th>
+                <th>Comment</th>
                 <th></th>
             </tr>";
         
@@ -21,6 +22,7 @@
             echo "<tr>";
             echo "<td>" . $row['feedback_id'] . "</td>";
             echo "<td>" . $row['rating'] . "</td>";
+            echo "<td>" . $row['comment'] . "</td>";
             echo "<td><a href='database_feedback/database-delete.php?f_id=" . $row['feedback_id'] . "' onclick='return confirm(\"Are you sure you want to delete this reservation?\")'>Delete</a></td>";
             echo "</tr>";
         }
