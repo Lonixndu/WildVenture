@@ -25,7 +25,7 @@ if (isset($reservation_id)) {
   // Close the prepared statement
   mysqli_stmt_close($stmt);
 } else {
-  echo "Invalid reservation ID";
+  echo "Invalid feedback ID";
 }
 
 // Close the database connection

@@ -23,7 +23,7 @@
             echo "<td>" . $row['feedback_id'] . "</td>";
             echo "<td>" . $row['rating'] . "</td>";
             echo "<td>" . $row['comment'] . "</td>";
-            echo "<td><a href='database_feedback/database-delete.php?f_id=" . $row['feedback_id'] . "' onclick='return confirm(\"Are you sure you want to delete this reservation?\")'>Delete</a></td>";
+            echo "<td><a href='database_feedback/database-delete.php?f_id=" . $row['feedback_id'] . "' onclick='return confirm(\"Are you sure you want to delete your feedback?\")'>Delete</a></td>";
             echo "</tr>";
         }
         echo "</table>";

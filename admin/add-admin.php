@@ -9,7 +9,7 @@
 <body>
     <div class="heading-1"><h1>Add New Admin</h1></div>
     <div class="info">
-        <form action="test.php" method="post">
+        <form action="add-admin.php" method="post">
             Email:<br>
             <input type="email" name="email"><br>
             Password:<br>
