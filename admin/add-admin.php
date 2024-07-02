@@ -34,7 +34,9 @@
                 VALUES('$email', '$hash')";
 
         mysqli_query($conn, $sql);
+        header("Location: ./admin-account.php");
     }
+    
     
 
     mysqli_close($conn);
