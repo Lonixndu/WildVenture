@@ -1,3 +1,5 @@
+!!!This website is created for an assignment, NOT AN ACTUAL WEBSITE!
+
 Welcome to WildVenture!
 
 This is the README file for the WildVenture website, a wildlife safari trip organizer currently in beta.
